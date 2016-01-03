@@ -19,20 +19,18 @@ header {
   color : #9d9d9d;
 }
 
-header h1, header ul {
-  margin : 0;
-}
 
 header h3{
   float: left;
   padding-top: 10px;
   margin-right: 50px;
+  margin-left: 15px;
 }
 
 .menu li{
   float:left;
   height:50px;
-  width: 80px;
+  width: 65px;
   padding-top: 12px;
 
 }
@@ -52,6 +50,8 @@ main {
   width: 1170px;
   margin: auto;
   margin-top: 30px;
+  border-bottom: solid 1px #E5E5E5;
+  padding-bottom: 20px;
 }
 
 .gauche {
@@ -141,21 +141,33 @@ strong{
 
 }
 
-.Avis {
+.final {
+  width: 800px;
   margin-top: 15px;
   border:1px solid #E5E5E4;
-  width: 800px;
-  border-radius: 5px;
+  border-radius: 6px;
   background-color: #F5F5F5;
-  padding:20px;
+  padding:15px;
 }
 
 hr {
-  margin:15px;
+  margin:20px;
   border:1px solid #E5E5E5;
-/*}
+}
 
-.avis1 {
+.avis {
   float: left;
-  margin-right: 530px;
+  width:88%;
+}
+
+footer {
+  width: 1170px;
+  margin: auto;
+  margin-top: 30px;
+
+}
+
+
+.clear {
+  clear: both;
 }
